@@ -186,11 +186,11 @@
     .scroller-section {
         padding: 10px; 
     }
-    .scroller-content {
-        align-items: center;
-    }
     .left-scroller, .right-scroller {
         width: 100%; 
+    }
+    .scroller-content h4{
+        padding-left: 0;
     }
 }
 
@@ -201,6 +201,12 @@
 @media screen and (max-width: 1920px) {
     .dar-mood .scroller-main {
         gap: 40px;
+    }
+    .left-hub-card{
+        gap: 0px;
+    }
+    .scroller-content{
+        gap: 0;
     }
 }
 @media screen and (max-width: 1800px) {
@@ -309,5 +315,8 @@
     }
     .dark-mood .left-scroller, .dark-mood.right-scroller {
         width: 100%; 
+    }
+    .dark-mood .scroller-content h4{
+        padding-left: 0;
     }
 }
